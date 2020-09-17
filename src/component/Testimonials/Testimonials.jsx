@@ -6,7 +6,7 @@ import testi3 from '../../assets/images/testi-3.svg';
 export default class Testimonials extends PureComponent {
     render() {
         return (
-            <className className="testimonials-slider-section">
+            <className id="testimonialss" className="testimonials-slider-section">
                 <className className="owl-carousel owl-testimonials-slider owl-theme container">
                     <className className="item container testimonials-slider-container">
                         <className className="col-lg-4 testimonials-slider-header-img-section padding-0">

@@ -3,7 +3,7 @@ import banner from '../../assets/images/banner-2.svg';
 
 const Banner = () => {
     return (
-        <div className="header">
+        <div id="tops" className="header">
             <div className="container header-container">
                 <div className="col-lg-6 header-img-section">
                     <img src={banner} alt="banner" />

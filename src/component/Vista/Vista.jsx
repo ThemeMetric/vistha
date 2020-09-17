@@ -2,7 +2,7 @@ import React from 'react';
 
 const Vista = () => {
     return (
-        <div className="services-section">
+        <div id="servicess" className="services-section">
             <div className="container">
                 <div className="col-lg-12 col-sm-12 about-title-section">
                     <p className="about-subtitle">Vistha Software</p>

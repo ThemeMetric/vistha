@@ -3,9 +3,9 @@ import blogimg1 from '../../assets/images/blog/blog-1.jpg';
 import blogimg2 from '../../assets/images/blog/blog-2.jpg';
 import blogimg3 from '../../assets/images/blog/blog-3.jpg';
 
-const blogPost = () => {
+const Blogging = () => {
     return (
-        <div className="blog-section">
+        <div id="blogs" className="blog-section">
             <div className="container blog-container">
                 <div className="col-lg-12 col-sm-12">
                     <p className="about-subtitle">Vistha Blog</p>
@@ -62,4 +62,4 @@ const blogPost = () => {
     );
 };
 
-export default blogPost;
+export default Blogging;

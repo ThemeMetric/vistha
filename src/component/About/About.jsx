@@ -3,7 +3,7 @@ import aboutimage from '../../assets/images/about-2.svg';
 
 const About = () => {
     return (
-        <div className="about-section">
+        <div id="abouts" className="about-section">
             <div className="container about-container">
                 <div className="col-lg-5 col-md-12 about-header-img">
                     <img src={aboutimage} alt="aboutus banner" />

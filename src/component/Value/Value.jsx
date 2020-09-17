@@ -3,9 +3,9 @@ import car from '../../assets/images/pricing/car.png';
 import cycle from '../../assets/images/pricing/cycle.png';
 import scooter from '../../assets/images/pricing/scooter.png';
 
-const vistaPricing = () => {
+const Value = () => {
     return (
-        <div className="pricing-section">
+        <div id="pricings" className="pricing-section">
             <div className="container pricing-container">
                 <div className="row">
                     <div className="col-lg-12">
@@ -90,4 +90,4 @@ const vistaPricing = () => {
     );
 };
 
-export default vistaPricing;
+export default Value;

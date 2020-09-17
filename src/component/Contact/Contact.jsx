@@ -3,7 +3,7 @@ import contact from '../../assets/images/contact.svg';
 
 const Contact = () => {
     return (
-        <div className="contact-section">
+        <div id="contacts" className="contact-section">
             <div className="container contact-container">
                 <div className="col-md-6 col-sm-12">
                     <form className="contact-form">

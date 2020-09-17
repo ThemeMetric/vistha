@@ -215,8 +215,8 @@ button:focus {
 }
 
 .navbar {
-  margin-top: 0;
-  background-color: #fff;
+  margin-top: 0 !important;
+  background-color: #fff !important;
   padding-top: 15px;
   padding-bottom: 15px;
   -webkit-transition: all 0.2s linear;
