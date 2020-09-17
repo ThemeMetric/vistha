@@ -16,22 +16,22 @@ const Footer = () => {
                         <h3 className="footer-subsection-title">Quick Links</h3>
                         <ul className="footer-subsection-list">
                             <li>
-                                <a href="#">
+                                <a href="https://facebook.com">
                                     <span className="ti-angle-right" /> About Us
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="https://facebook.com">
                                     <span className="ti-angle-right" /> Our Services
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="https://facebook.com">
                                     <span className="ti-angle-right" /> Our Pricing
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="https://facebook.com">
                                     <span className="ti-angle-right" /> Blog
                                 </a>
                             </li>
@@ -48,7 +48,7 @@ const Footer = () => {
                         </li>
                         <li>0123456789</li>
                         <li>
-                            <a href="#">yourmail@yourdomain.com</a>
+                            <a href="https://facebook.com">yourmail@yourdomain.com</a>
                         </li>
                     </ul>
                 </div>
@@ -56,16 +56,16 @@ const Footer = () => {
                     <div className="footer-subsection-2-2">
                         <h3 className="footer-subsection-title">Follow Us</h3>
                         <div className="footer-social-media-icons-section">
-                            <a href="#" className="footer-social-media-icon">
+                            <a href="https://facebook.com" className="footer-social-media-icon">
                                 <span className="ti-twitter" />
                             </a>
-                            <a href="#" className="footer-social-media-icon">
+                            <a href="https://facebook.com" className="footer-social-media-icon">
                                 <span className="ti-instagram" />
                             </a>
-                            <a href="#" className="footer-social-media-icon">
+                            <a href="https://facebook.com" className="footer-social-media-icon">
                                 <span className="ti-facebook" />
                             </a>
-                            <a href="#" className="footer-social-media-icon">
+                            <a href="https://facebook.com" className="footer-social-media-icon">
                                 <span className="ti-linkedin" />
                             </a>
                         </div>
