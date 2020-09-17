@@ -3,7 +3,7 @@ import blogimg1 from '../../assets/images/blog/blog-1.jpg';
 import blogimg2 from '../../assets/images/blog/blog-2.jpg';
 import blogimg3 from '../../assets/images/blog/blog-3.jpg';
 
-const Blog_Post = () => {
+const blogPost = () => {
     return (
         <div className="blog-section">
             <div className="container blog-container">
@@ -62,4 +62,4 @@ const Blog_Post = () => {
     );
 };
 
-export default Blog_Post;
+export default blogPost;
