@@ -24,4 +24,3 @@ yarn-error.log*
 
 /src/serviceWorker.jsx
 /src/setupTests.jsx
-/public/*
