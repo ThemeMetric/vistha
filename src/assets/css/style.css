@@ -17,6 +17,9 @@ html {
   padding: 0;
   margin: 0;
 }
+.owl-carousel {
+  display: block !important;
+}
 
 body {
   font-family: "Inter", sans-serif;
