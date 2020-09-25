@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import logo from '../../assets/images/logo.png';
 import classes from './Header.module.css';
 
@@ -36,41 +37,90 @@ const Header = () => {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul className="navbar-nav menu-navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="#tops">
-                                <p className="nav-link-menu">Home</p>
-                            </a>
+                            <Link
+                                activeClass="active"
+                                to="tops"
+                                spy
+                                smooth
+                                offset={-70}
+                                duration={500}
+                            >
+                                Home
+                            </Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link
+                                activeClass="active"
+                                to="abouts"
+                                spy
+                                smooth
+                                offset={-70}
+                                duration={500}
+                            >
+                                About Us
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#abouts">
-                                <p className="nav-link-menu">About Us</p>
-                            </a>
+                            <Link
+                                activeClass="active"
+                                to="servicess"
+                                spy
+                                smooth
+                                offset={-70}
+                                duration={500}
+                            >
+                                Services
+                            </Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link
+                                activeClass="active"
+                                to="pricings"
+                                spy
+                                smooth
+                                offset={-70}
+                                duration={500}
+                            >
+                                Pricing
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#servicess">
-                                <p className="nav-link-menu">Services</p>
-                            </a>
+                            <Link
+                                activeClass="active"
+                                to="blogs"
+                                spy
+                                smooth
+                                offset={-70}
+                                duration={500}
+                            >
+                                Blog
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#pricings">
-                                <p className="nav-link-menu">Pricing</p>
-                            </a>
+                            <Link
+                                activeClass="active"
+                                to="testimonialss"
+                                spy
+                                smooth
+                                offset={-70}
+                                duration={500}
+                            >
+                                Testimonials
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#blogs">
-                                <p className="nav-link-menu">Blog</p>
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#testimonialss">
-                                <p className="nav-link-menu">Testimonials</p>
-                            </a>
-                        </li>
-                    </ul>
-                    <ul className="navbar-nav">
-                        <li className="nav-item">
-                            <a className="nav-link learn-more-btn btn-invert" href="#contacts">
-                                <span className="ti ti-arrow-right" /> Contact
-                            </a>
+                            <Link
+                                activeClass="active"
+                                to="contacts"
+                                spy
+                                smooth
+                                offset={-70}
+                                duration={500}
+                            >
+                                Contact
+                            </Link>
                         </li>
                     </ul>
                 </div>
