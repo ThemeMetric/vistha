@@ -12,7 +12,7 @@ const Banner = () => {
                     <h1 className="header-title">Vistha Software Development Company.</h1>
                     <p className="header-title-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.
+                        tempor incididunt ut labore et dolore magna aliquas.
                     </p>
                     <div className="learn-more-btn-section">
                         <a className="nav-link learn-more-btn" href="#services">
